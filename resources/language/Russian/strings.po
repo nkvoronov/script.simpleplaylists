@@ -1,0 +1,142 @@
+﻿# XBMC Media Center language file
+# Addon Name: SimplePlaylists
+# Addon id: script.simpleplaylists
+# Addon version: 1.1.1
+# Addon Provider: AddonScriptorDE
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2014-06-04 04:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+msgctxt "#30001"
+msgid "Videos"
+msgstr "Видео"
+
+msgctxt "#30002"
+msgid "Music"
+msgstr "Музыка"
+
+msgctxt "#30003"
+msgid "Images"
+msgstr "Изображения"
+
+msgctxt "#30004"
+msgid "Choose playlist"
+msgstr "Выберите плейлист"
+
+msgctxt "#30005"
+msgid "No file playing"
+msgstr "Нет файла"
+
+msgctxt "#30009"
+msgid "Use alternative directory for playlist"
+msgstr "Использовать альтернативную папку для плейлиста"
+
+msgctxt "#30010"
+msgid "Playlist directory"
+msgstr "Папка плейлиста"
+
+msgctxt "#30011"
+msgid "Show Keyboard to edit title"
+msgstr "Показать клавиатуру для редактирования названия"
+
+msgctxt "#30012"
+msgid "Added on"
+msgstr "Добавлено"
+
+msgctxt "#30013"
+msgid "Remove from playlist"
+msgstr "Удалить из плейлиста"
+
+msgctxt "#30014"
+msgid "Empty playlist"
+msgstr "Пустой плейлист"
+
+msgctxt "#30015"
+msgid "Empty all playlists"
+msgstr "Все плейлисты пусты"
+
+msgctxt "#30016"
+msgid "Already exists in playlist"
+msgstr "Уже есть в плейлисте"
+
+msgctxt "#30017"
+msgid "New Playlist"
+msgstr "Новый плейлист"
+
+msgctxt "#30019"
+msgid "New Subfolder"
+msgstr "Новая подпапка"
+
+msgctxt "#30020"
+msgid "Subfolder"
+msgstr "Подпапка"
+
+msgctxt "#30021"
+msgid "Playlist"
+msgstr "Плейлист"
+
+msgctxt "#30022"
+msgid "Add item"
+msgstr "Добавить элемент"
+
+msgctxt "#30023"
+msgid "No playlist available"
+msgstr "Нет доступного плейлиста"
+
+msgctxt "#30024"
+msgid "Root Folder"
+msgstr "Корневая папка"
+
+msgctxt "#30025"
+msgid "Manage playlists"
+msgstr "Управление плейлистами"
+
+msgctxt "#30026"
+msgid "Playlists"
+msgstr "Плейлисты"
+
+msgctxt "#30027"
+msgid "Subfolders"
+msgstr "Подпапки"
+
+msgctxt "#30028"
+msgid "No subfolders available"
+msgstr "Нет доступных подпапок"
+
+msgctxt "#30029"
+msgid "Subfolders in"
+msgstr "Вложенные подпапки"
+
+msgctxt "#30030"
+msgid "Added item"
+msgstr "Добавлен элемент"
+
+msgctxt "#30031"
+msgid "Show confirmation when adding items"
+msgstr "Показывать подтверждение при добавлении элементов"
+
+msgctxt "#30032"
+msgid "Show playlists"
+msgstr "Показать плейлисты"
+
+msgctxt "#30033"
+msgid "Rename item"
+msgstr "Переименовать элемент"
+
+msgctxt "#30034"
+msgid "Empty subfolder"
+msgstr "Пустая подпапка"
+
+msgctxt "#30035"
+msgid "Manage subfolders"
+msgstr "Управление подпапками"

@@ -1,0 +1,142 @@
+# XBMC Media Center language file
+# Addon Name: SimplePlaylists
+# Addon id: script.simpleplaylists
+# Addon version: 1.1.1
+# Addon Provider: AddonScriptorDE
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2014-06-04 04:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#30001"
+msgid "Videos"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Music"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Images"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Choose playlist"
+msgstr ""
+
+msgctxt "#30005"
+msgid "No file playing"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Use alternative directory for playlist"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Playlist directory"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Show Keyboard to edit title"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Added on"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Remove from playlist"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Empty playlist"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Empty all playlists"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Already exists in playlist"
+msgstr ""
+
+msgctxt "#30017"
+msgid "New Playlist"
+msgstr ""
+
+msgctxt "#30019"
+msgid "New Subfolder"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Subfolder"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Add item"
+msgstr ""
+
+msgctxt "#30023"
+msgid "No playlist available"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Root Folder"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Manage playlists"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Playlists"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Subfolders"
+msgstr ""
+
+msgctxt "#30028"
+msgid "No subfolders available"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Subfolders in"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Added item"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Show confirmation when adding items"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Show playlists"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Rename item"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Empty subfolder"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Manage subfolders"
+msgstr ""
