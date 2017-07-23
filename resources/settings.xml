@@ -2,5 +2,5 @@
    <setting id="showConfirmation" type="bool" label="30031" default="false" />
    <setting id="showKeyboard" type="bool" label="30011" default="false" />
    <setting id="useAlternatePlDir" type="bool" label="30009" default="false" />
-   <setting id="alternatePlDir" type="text" label="30010" default="" />
+   <setting id="alternatePlDir" option="writeable" type="folder" label="30010" default="" visible="eq(-1,true)"/>
 </settings>

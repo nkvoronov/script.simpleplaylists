@@ -42,8 +42,8 @@ msgid "Use alternative directory for playlist"
 msgstr "Использовать альтернативную папку для плейлиста"
 
 msgctxt "#30010"
-msgid "Playlist directory"
-msgstr "Папка плейлиста"
+msgid "- Playlist directory"
+msgstr "- Папка плейлиста"
 
 msgctxt "#30011"
 msgid "Show Keyboard to edit title"

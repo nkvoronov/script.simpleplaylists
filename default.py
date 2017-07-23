@@ -37,13 +37,13 @@ showKeyboard=settings.getSetting("showKeyboard")
 showConfirmation=settings.getSetting("showConfirmation")
 
 if useAlternatePlaylistPath=="true":
-  playListFile=xbmc.translatePath(settings.getSetting("alternatePlDir")+"/SimplePlaylists.spl")
-  playListNames=xbmc.translatePath(settings.getSetting("alternatePlDir")+"/playlists")
-  playListSubNames=xbmc.translatePath(settings.getSetting("alternatePlDir")+"/subfolders")
+  playListFile=xbmc.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'SimplePlaylists.spl'))
+  playListNames=xbmc.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'playlists'))
+  playListSubNames=xbmc.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'subfolders'))
 else:
-  playListFile=xbmc.translatePath("special://profile/addon_data/"+addonID+"/SimplePlaylists.spl")
-  playListNames=xbmc.translatePath("special://profile/addon_data/"+addonID+"/playlists")
-  playListSubNames=xbmc.translatePath("special://profile/addon_data/"+addonID+"/subfolders")
+  playListFile=xbmc.translatePath(os.path.join('special://profile/addon_data',addonID,'SimplePlaylists.spl'))
+  playListNames=xbmc.translatePath(os.path.join('special://profile/addon_data',addonID,'playlists'))
+  playListSubNames=xbmc.translatePath(os.path.join('special://profile/addon_data',addonID,'subfolders'))
 
 myPlaylists=[]
 if os.path.exists(playListNames):

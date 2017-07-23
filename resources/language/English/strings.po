@@ -42,7 +42,7 @@ msgid "Use alternative directory for playlist"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Playlist directory"
+msgid "- Playlist directory"
 msgstr ""
 
 msgctxt "#30011"
