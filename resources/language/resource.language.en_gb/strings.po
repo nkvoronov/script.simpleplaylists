@@ -140,3 +140,7 @@ msgstr ""
 msgctxt "#30035"
 msgid "Manage subfolders"
 msgstr ""
+
+msgctxt "#32000"
+msgid "General"
+msgstr ""

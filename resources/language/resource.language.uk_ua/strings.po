@@ -140,3 +140,7 @@ msgstr "Порожня підпапка"
 msgctxt "#30035"
 msgid "Manage subfolders"
 msgstr "Управління підпапками"
+
+msgctxt "#32000"
+msgid "General"
+msgstr "Загальні"
