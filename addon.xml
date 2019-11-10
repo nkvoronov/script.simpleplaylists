@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.simpleplaylists"
-    name="SimplePlaylists"
-    version="1.1.1.003"
-    provider-name="AddonScriptorDE, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</summary>
-        <summary lang="ru">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</summary>        
-        <description lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</description>
-        <description lang="ru">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</description>        
-        <language></language>
-        <platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.simpleplaylists.git</source>
-    </extension>
+	name="SimplePlaylists"
+	version="1.1.1.004"
+	provider-name="AddonScriptorDE, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio image</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</summary>
+		<summary lang="ru_RU">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</summary>
+		<summary lang="uk_UA">Додавайте локальне медіа (відео/аудіо/зображення) та контент доповнень до плейлисти під час перегляду медіатеки. Для використання цього плагіна ви повинні виконати наступну команду: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Додаткова інформація: forum.xbmc.org</summary>
+		<description lang="en_GB">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</description>
+		<description lang="ru_RU">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</description>
+		<description lang="uk_UA">Додавайте локальне медіа (відео/аудіо/зображення) та контент доповнень до плейлисти під час перегляду медіатеки. Для використання цього плагіна ви повинні виконати наступну команду: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Додаткова інформація: forum.xbmc.org</description>
+		<language></language>
+		<platform>all</platform>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.simpleplaylists.git</source>
+	</extension>
 </addon>
