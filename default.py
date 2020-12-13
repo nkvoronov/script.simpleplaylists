@@ -1,16 +1,16 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import xbmc, xbmcplugin, xbmcgui, xbmcaddon, locale, sys, urllib, urllib2, re, os, datetime, base64
+import xbmc, xbmcvfs, xbmcplugin, xbmcgui, xbmcaddon, locale, sys, urllib, urllib2, re, os, datetime, base64
 from operator import itemgetter
 
 useJson=True
 
 pluginhandle=int(sys.argv[1])
 addonID = "script.simpleplaylists"
-addon_work_folder=xbmc.translatePath("special://profile/addon_data/"+addonID)
+addon_work_folder=xbmcvfs.translatePath("special://profile/addon_data/"+addonID)
 settings = xbmcaddon.Addon(id=addonID)
 translation = settings.getLocalizedString
-lastContentTypeFile=xbmc.translatePath("special://profile/addon_data/"+addonID+"/lastContentType")
+lastContentTypeFile=xbmcvfs.translatePath("special://profile/addon_data/"+addonID+"/lastContentType")
 
 lastContentType = xbmc.getInfoLabel('Container.FolderPath')
 if lastContentType=="addons://sources/video/":
@@ -37,13 +37,13 @@ showKeyboard=settings.getSetting("showKeyboard")
 showConfirmation=settings.getSetting("showConfirmation")
 
 if useAlternatePlaylistPath=="true":
-  playListFile=xbmc.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'SimplePlaylists.spl'))
-  playListNames=xbmc.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'playlists'))
-  playListSubNames=xbmc.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'subfolders'))
+  playListFile=xbmcvfs.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'SimplePlaylists.spl'))
+  playListNames=xbmcvfs.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'playlists'))
+  playListSubNames=xbmcvfs.translatePath(os.path.join(settings.getSetting("alternatePlDir"),'subfolders'))
 else:
-  playListFile=xbmc.translatePath(os.path.join('special://profile/addon_data',addonID,'SimplePlaylists.spl'))
-  playListNames=xbmc.translatePath(os.path.join('special://profile/addon_data',addonID,'playlists'))
-  playListSubNames=xbmc.translatePath(os.path.join('special://profile/addon_data',addonID,'subfolders'))
+  playListFile=xbmcvfs.translatePath(os.path.join('special://profile/addon_data',addonID,'SimplePlaylists.spl'))
+  playListNames=xbmcvfs.translatePath(os.path.join('special://profile/addon_data',addonID,'playlists'))
+  playListSubNames=xbmcvfs.translatePath(os.path.join('special://profile/addon_data',addonID,'subfolders'))
 
 myPlaylists=[]
 if os.path.exists(playListNames):
